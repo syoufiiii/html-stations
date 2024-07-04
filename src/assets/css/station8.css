@@ -1,0 +1,52 @@
+header {
+  background-color: #ffffff;
+}
+footer {
+  background-color: #ffffff;
+}
+/* station3.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card__img-top {
+  width: 288px; /* 修正 */
+  height: 182px; /* 修正 */
+  margin-bottom: 10px; /* 追加 */
+  border-radius: 10px 10px 0 0;
+}
+
+.card__title {
+  font-size: 18px;
+  color: #282828; /* 修正 */
+  margin: 10px 0;
+}
+
+.card__description {
+  font-size: 14px;
+  color: #282828; /* 修正 */
+  margin: 5px 0;
+}
+.card-flex {
+  display: flex;
+  gap: 20px; /* カード間のスペース */
+  justify-content: center; /* カードを中央に揃える */
+  flex-wrap: wrap; /* 必要に応じて折り返す */
+}
