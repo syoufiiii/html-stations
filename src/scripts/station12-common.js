@@ -1,3 +1,3 @@
 var result = getData();
-var elem = document.getElementById("global data");
+var elem = document.getElementById("result");
 elem.innerHTML = result;
